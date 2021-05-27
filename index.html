@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +9,7 @@
 </head>
 
 <body>
+
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
@@ -31,11 +33,34 @@
         </div>
       </div>
     </nav>
-    <div class="row text-center">
-      <div class="col-12">
-        <h1>Title with a big photo backgroud</h1>
-      </div>
+    <div class = "row h-100 w-100 sm-12 md-10 mx-auto">
+    <div id="carouselExampleIndicators" class="carousel slide h-50" data-bs-ride="carousel" >
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src=img/c1.jpg class="d-block img-fluid" alt="...">
     </div>
+    <div class="carousel-item">
+      <img src=img/c2.jpg class="d-block img-fluid " alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src=img/c3.jpg class="d-block img-fluid" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
     <div class="row border border-primary border-1">
       <div class="col col-sm-4 col-md-6 border border-danger">
         <a href="pages/Page1.html">Photo 1</a>
@@ -49,7 +74,8 @@
         Text Related to Photo 2. Click on photo 2 to go to page 2
       </div>
       <div class="col col-sm-4 col-md-6 border border-danger">
-        <a href="pages/Page2.html">Photo 2</a></div>
+        <a href="pages/Page2.html">Photo 2</a>
+      </div>
     </div>
     <div id="Section1" class="text-center">
       <h2 class="section-heading text-uppercase"> Section </h2>
